@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-      - uses: action/checkout@v3
+      - uses: actions/checkout@v3
       
       - name: Hello World
         run: echo "Hello, world"
